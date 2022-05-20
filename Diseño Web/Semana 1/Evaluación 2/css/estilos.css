@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: raleway;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+nav {align-content: center;margin-left: auto;margin-right: auto;
+}
+nav ul {
+   list-style: none;
+   padding-right: 30px; display: flex;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 30px;}
+
+    nav ul li a {
+        display: block;
+        padding: 0 10px;
+        text-decoration: none;color:rgb(74, 74, 74);}
+    nav ul li a:hover {
+            background: #d0d0d0;}
+section {
+    font-size: 20pt;
+    align-content: center;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    font-family: raleway;
+    font-style: oblique;
+    width: 50px 0;
+}
+.contenedor {
+    background-image: url(https://images.pexels.com/photos/6204267/pexels-photo-6204267.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+    width: 100%;
+    max-width: 2000px;
+    height: 600px;background-repeat: no-repeat;
+}
+h1 {text-align: center;
+    line-height: 600px;
+    color: #282727;
+    font-style: italic;
+    font-family: raleway ;
+    font-size: 30pt;
+    }
+
+.logo {
+    width: 100%;
+    max-width: 2000px;
+    height: 90px;background-repeat: no-repeat;
+}
+.centrado{
+    display: block;
+  }
+
+
+/*estilo de productos/tabla*/
+#main-container{margin: 150px auto;width: 600px;}
+table{width: 100%;text-align: left;}
+th,td{border: solid 1px rgb(65, 65, 65)}
+
+
+/*estilo de contactos/formulario*/
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+form {
+    margin:0 auto;
+    width:400px;}
+
+input, textarea {
+        width:380px;
+        height:27px;
+        background:#c3c3c3;
+        border:2px solid #f6f6f6;
+        padding:10px;
+        margin-top:5px;
+        font-size:10px;
+        color:#ffffff;
+    }
+     
+textarea {
+        height:150px;
+    }
+     
+#submit {
+        width:85px;
+        height:35px;
+        border:none;
+        margin-top:20px;
+        cursor:pointer;
+    }
+
+
+/*estilo de Ubícanos/map*/
+.conteiner2 {
+    display: flex;align-content: center;}
+
+.item {
+    height: 40px;
+    padding: 2px;
+    margin: 6em;line-height: 80%;
+
+}
+
